@@ -9,6 +9,7 @@
   "dependencies": {
     "@sap/cds": "^6.8.2",
     "@sap/xssec": "^3.2.7",
+    "@sapui5/ts-types-esm": "^1.121.1",
     "express": "^4.18.2",
     "hdb": "^0.19.1",
     "passport": "^0.6.0"
@@ -85,5 +86,8 @@
   "private": true,
   "workspaces": [
     "app/*"
+  ],
+  "sapux": [
+    "app/managetravels"
   ]
 }
